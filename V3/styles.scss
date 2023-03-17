@@ -1,0 +1,44 @@
+$primary-colour: lightgrey;
+$secondary-colour: lightblue;
+
+.profile {
+    padding: 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: $secondary-colour;
+    border-radius: 25px 0px 0px 25px;
+    
+    &pic {
+        height: 180px;
+        width: 180px;
+        border-radius: 50%;
+    }
+}
+
+.links {
+    border-radius: 0px 25px 25px 0px;
+    background-color: $primary-colour;
+}
+
+
+.main-box {
+    max-width: 800px;
+    display: flex;
+    align-self: center;
+}
+
+nav {
+    text-align: left;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+section{
+    height: 100vh;
+}

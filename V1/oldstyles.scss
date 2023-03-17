@@ -1,0 +1,132 @@
+h1,
+h2 {
+    font-family: Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #F6DDCC;
+}
+
+.box {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    min-width: 400px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.left {
+    background-color: #EDBB99;
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    padding: 20px;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right {
+    background-color: #AF601A;
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    padding: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.linkedin-button {
+    background-color: #0077B5;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0px 5px 0px 5px;
+}
+
+.linkedin-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.linkedin-logo {
+    width: 20px;
+    height: 20px;
+    fill: white;
+}
+
+.btn-instagram {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0px 5px 0px 5px;
+
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    background-image: radial-gradient(circle farthest-corner at 28% 100%,
+            #fcdf8f 0%,
+            #fbd377 10%,
+            #fa8e37 22%,
+            #f73344 35%,
+            transparent 65%), linear-gradient(145deg, #3051f1 10%, #c92bb7 70%);
+
+}
+
+.btn-instagram:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-instagram-icon {
+    width: 24px;
+    height: 24px;
+    fill: white;
+}
+
+.social-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+
+.github-button {
+    display: inline-block;
+    background-color: #24292e;
+    border-radius: 50%;
+    height: 24px;
+    width: 24px;
+    padding: 8px;
+    margin: 0px;
+    text-align: center;
+    margin: 0px 5px 0px 5px;
+}
+
+.github-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.github-icon {
+    fill: white;
+    height: 24px;
+    width: 24px;
+}

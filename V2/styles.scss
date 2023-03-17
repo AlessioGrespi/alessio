@@ -1,0 +1,17 @@
+$primary-colour: orange;
+$secondary-colour: rgba(94, 73, 34, 0.683);
+
+body {
+    font-family: Roboto, Helvetica, sans-serif;
+    margin: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
